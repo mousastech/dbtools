@@ -11,7 +11,7 @@ This example below was createad with the following steps & configuration:
 | Runtime    | 15.4 LTS (includes Apache Spark 3.5.0, Scala 2.12)   |
 | Unity Catalog    | On   |
 
-###**1) Create a cluster or use existing one with the following configuration:**
+###1) Create a cluster or use an existing one with the following configuration:
 
 
 <img src= "https://github.com/mousastech/dbtools/blob/c2168d64ece691b48ff62a8d6c43debd0510414e/hudi/img/0.Cluster.png?raw=true" size="50%">
@@ -36,6 +36,6 @@ spark.databricks.cluster.profile singleNode <br>
 
 <img src= "https://github.com/mousastech/dbtools/blob/c2168d64ece691b48ff62a8d6c43debd0510414e/hudi/img/2.Library.png?raw=true" size="50%">
 
-### **2)Run the instructions with the notebook provided**
+### 2)Run the instructions with the notebook provided
 
  
