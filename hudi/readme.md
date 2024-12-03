@@ -39,5 +39,7 @@ spark.databricks.cluster.profile singleNode <br>
 
 ### 2)Run the instructions with the notebook provided
 
+notebook <code> Read hudi tables.sql </code>
+
 Hope you enjoy it.
  
