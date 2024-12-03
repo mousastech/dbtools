@@ -1,8 +1,9 @@
 # Using Hudi files in the Unity Catalog
 
-A customer in Guatemala ask me: how to work with hudi tables in Unity Catalog. After google for the quickest solution I got [this blog](https://www.onehouse.ai/blog/how-to-use-apache-hudi-with-databricks). Some versions and caracteristics changes along the time and after to adjust some configurations I got solved. 
+A customer in Guatemala asked me: how to work with hudi tables in Unity Catalog? 
+After googling it for the quickest solution, I got [this blog](https://www.onehouse.ai/blog/how-to-use-apache-hudi-with-databricks). Some versions and characteristics change over time and after adjusting some configurations I got solved. 
 
-This example below was createad with the following steps & configuration:
+This example below was created with the following steps & configuration:
 
 | Item | Configuration | 
 | -------- | -------- | 
@@ -38,4 +39,5 @@ spark.databricks.cluster.profile singleNode <br>
 
 ### 2)Run the instructions with the notebook provided
 
+Hope you enjoy it.
  
