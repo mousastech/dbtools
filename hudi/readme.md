@@ -13,6 +13,9 @@ This example below was createad with the following steps & configuration:
 
 ###**1) Create a cluster or use existing one with the following configuration:**
 
+
+<img src= "https://github.com/mousastech/dbtools/blob/c2168d64ece691b48ff62a8d6c43debd0510414e/hudi/img/0.Cluster.png?raw=true" size="50%">
+
 **a) Cluster configuration: Advanced Option -> Spark, includes:**
 <br>
 <code>
@@ -25,9 +28,13 @@ spark.sql.extensions org.apache.spark.sql.hudi.HoodieSparkSessionExtension <br>
 spark.databricks.cluster.profile singleNode <br>
 </code>
 
+<img src= "https://github.com/mousastech/dbtools/blob/c2168d64ece691b48ff62a8d6c43debd0510414e/hudi/img/1.Spark%20configurations.png?raw=true" size="50%">
+
 **b)Clusters Libraries: Install new - Maven:**
 
 <code> org.apache.hudi:hudi-spark3.5-bundle_2.12:0.15.0 </code>
+
+<img src= "https://github.com/mousastech/dbtools/blob/c2168d64ece691b48ff62a8d6c43debd0510414e/hudi/img/2.Library.png?raw=true" size="50%">
 
 ### **2)Run the instructions with the notebook provided**
 
