@@ -1,0 +1,112 @@
+{
+    "cluster_id": "1203-165922-zj1lszq4",
+    "creator_user_name": "moises.santos@databricks.com",
+    "driver": {
+        "private_ip": "10.0.36.215",
+        "node_id": "191a9f45ca7f4221a6cd640491708342",
+        "instance_id": "i-0a42f00b6ee4bba66",
+        "start_timestamp": 1733245163729,
+        "node_aws_attributes": {
+            "is_spot": false
+        },
+        "node_attributes": {
+            "is_spot": false
+        },
+        "host_private_ip": "10.0.44.17"
+    },
+    "spark_context_id": 5557538411218866000,
+    "driver_healthy": true,
+    "jdbc_port": 10000,
+    "cluster_name": "Moises Santos's Cluster",
+    "spark_version": "15.4.x-scala2.12",
+    "spark_conf": {
+        "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+        "spark.kryo.registrator": "org.apache.spark.HoodieSparkKryoRegistrar",
+        "spark.sql.sourcesUseV1SourceList": "hudi",
+        "spark.sql.catalog.spark_catalog": "org.apache.spark.sql.hudi.catalog.HoodieCatalog",
+        "spark.master": "local[*, 4]",
+        "spark.sql.extensions": "org.apache.spark.sql.hudi.HoodieSparkSessionExtension",
+        "spark.databricks.cluster.profile": "singleNode"
+    },
+    "aws_attributes": {
+        "first_on_demand": 1,
+        "availability": "SPOT_WITH_FALLBACK",
+        "zone_id": "auto",
+        "spot_bid_price_percent": 100,
+        "ebs_volume_count": 0
+    },
+    "node_type_id": "r6id.xlarge",
+    "driver_node_type_id": "r6id.xlarge",
+    "custom_tags": {
+        "ResourceClass": "SingleNode"
+    },
+    "spark_env_vars": {
+        "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+    },
+    "autotermination_minutes": 120,
+    "enable_elastic_disk": true,
+    "disk_spec": {
+        "disk_count": 0
+    },
+    "cluster_source": "UI",
+    "single_user_name": "moises.santos@databricks.com",
+    "enable_local_disk_encryption": false,
+    "instance_source": {
+        "node_type_id": "r6id.xlarge"
+    },
+    "driver_instance_source": {
+        "node_type_id": "r6id.xlarge"
+    },
+    "data_security_mode": "SINGLE_USER",
+    "runtime_engine": "STANDARD",
+    "effective_spark_version": "15.4.x-scala2.12",
+    "state": "RUNNING",
+    "state_message": "",
+    "start_time": 1733245162238,
+    "last_state_loss_time": 0,
+    "last_activity_time": 1733245239094,
+    "last_restarted_time": 1733245284306,
+    "num_workers": 0,
+    "cluster_memory_mb": 32768,
+    "cluster_cores": 4,
+    "default_tags": {
+        "Vendor": "Databricks",
+        "Creator": "moises.santos@databricks.com",
+        "ClusterName": "Moises Santos's Cluster",
+        "ClusterId": "1203-165922-zj1lszq4"
+    },
+    "init_scripts_safe_mode": false,
+    "spec": {
+        "cluster_name": "Moises Santos's Cluster",
+        "spark_version": "15.4.x-scala2.12",
+        "spark_conf": {
+            "spark.master": "local[*, 4]",
+            "spark.databricks.cluster.profile": "singleNode",
+            "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+            "spark.kryo.registrator": "org.apache.spark.HoodieSparkKryoRegistrar",
+            "spark.sql.catalog.spark_catalog": "org.apache.spark.sql.hudi.catalog.HoodieCatalog",
+            "spark.sql.extensions": "org.apache.spark.sql.hudi.HoodieSparkSessionExtension",
+            "spark.sql.sourcesUseV1SourceList": "hudi"
+        },
+        "aws_attributes": {
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK",
+            "zone_id": "auto",
+            "spot_bid_price_percent": 100,
+            "ebs_volume_count": 0
+        },
+        "node_type_id": "r6id.xlarge",
+        "custom_tags": {
+            "ResourceClass": "SingleNode"
+        },
+        "spark_env_vars": {
+            "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+        },
+        "autotermination_minutes": 120,
+        "enable_elastic_disk": true,
+        "single_user_name": "moises.santos@databricks.com",
+        "data_security_mode": "SINGLE_USER",
+        "runtime_engine": "STANDARD",
+        "num_workers": 0
+    }
+}
